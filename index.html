@@ -1126,26 +1126,6 @@
     </div>
   </section>
 
-  <!-- ========== ALTERANDO O TÍTULO E A DESCRIÇÃO ========== -->
-  <section id="titulo-descricao">
-    <h2>Alterando o título e a descrição</h2>
-    <p>Por padrão, o título do site é <strong>username.github.io</strong>. Para personalizar a página do GitHub Pages, você pode alterar o título e a descrição do site editando o arquivo <code>_config.yml</code> no repositório.</p>
-
-    <ol>
-      <li>Abra a guia <strong>Código</strong> do repositório.</li>
-      <li>Verifique se o arquivo <code>_config.yml</code> já existe. Se não existir, crie um novo arquivo com esse nome.</li>
-      <li>Abra o arquivo <code>_config.yml</code> e clique em <strong>Editar</strong>.</li>
-      <li>Adicione duas linhas: <code>title:</code> com o título desejado e <code>description:</code> com a descrição do site.</li>
-      <li>Quando terminar, clique em <strong>Confirmar alterações</strong>.</li>
-    </ol>
-
-    <pre><code>theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!</code></pre>
-
-    <p>Esse ajuste ajuda a melhorar a aparência e a identidade do seu site no GitHub Pages, além de deixar o nome e a introdução mais profissionais e compreensíveis para visitantes.</p>
-  </section>
-
   <!-- ========== 2. HISTÓRIA ========== -->
   <section id="historia">
     <h2>2. História</h2>
@@ -1718,25 +1698,6 @@ deactivate</code></pre>
     <p>Seu site está online em <a href="http://efersonmarques-code.com/" target="_blank" rel="noopener noreferrer">http://efersonmarques-code.com/</a></p>
     <p>Última publicação feita por <a href="https://github.com/efersonmarques-code" target="_blank" rel="noopener noreferrer">@efersonmarques-code</a> há alguns minutos.</p>
     <p><a href="http://efersonmarques-code.com/" target="_blank" rel="noopener noreferrer">Abrir o site</a></p>
-  </section>
-
-  <section class="dns-error" style="margin-top: 30px; padding: 28px 24px; background: linear-gradient(135deg, rgba(101, 19, 19, 0.82), rgba(41, 14, 14, 0.82)); border: 1px solid rgba(255, 143, 143, 0.65); border-radius: 18px; box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);">
-    <h2 style="margin-bottom: 14px; color: #ffdada;">⚠️ Não é possível acessar esse site</h2>
-    <p>Este erro acontece quando o navegador não consegue resolver o DNS do domínio e não encontra o endereço do site.</p>
-    <p><strong>Mensagem do navegador:</strong> “Verifique se há um erro de digitação em efersonmarques-code.com. Se o endereço estiver correto, tente executar o Diagnóstico de Rede do Windows.”</p>
-    <p><strong>Código do erro:</strong> <code>DNS_PROBE_FINISHED_NXDOM</code></p>
-    <p>Isso normalmente indica que o domínio ainda não está apontando para os registros DNS corretos do GitHub Pages.</p>
-    <ol style="margin: 16px 0 0 20px; padding-left: 16px;">
-      <li>Confirme se o domínio foi digitado corretamente.</li>
-      <li>Entre no painel do seu provedor de domínio e ajuste os registros DNS.</li>
-      <li>Configure os registros do tipo <strong>A</strong> para os IPs do GitHub Pages:</li>
-    </ol>
-    <pre style="margin-top: 14px; padding: 14px 16px; border-radius: 10px; background: rgba(0,0,0,0.23); overflow-x: auto; color: #fff; border: 1px solid rgba(255,255,255,0.1);"><code>185.199.108.153
-185.199.109.153
-185.199.110.153
-185.199.111.153</code></pre>
-    <p style="margin-top: 12px;">Também adicione um registro <strong>CNAME</strong> para <code>www</code> apontando para <code>efersonmarques-code.github.io</code>.</p>
-    <p>Depois, espere a propagação do DNS e volte ao GitHub Pages para confirmar o domínio no painel de configurações.</p>
   </section>
 
 </main>
